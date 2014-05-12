@@ -46,6 +46,13 @@ Please link back to me/this project if you use it in anyway.
 
 Links
 ----
-[Stuart Morris Github](https://github.com/StuartMorris0)
-[@MorrisStuart](http://twitter.com/MorrisStuart)
-[LinkedIn](http://uk.linkedin.com/pub/stuart-morris/44/465/125)
+[Stuart Morris Github](https://github.com/StuartMorris0)  
+[@MorrisStuart](http://twitter.com/MorrisStuart)  
+[LinkedIn](http://uk.linkedin.com/pub/stuart-morris/44/465/125)  
+
+Updates
+----
+If you have any recommended updates please notify me using any of the above methods.  
+If you find any issues please create an issue/pull request for an update.  
+
+Thanks
