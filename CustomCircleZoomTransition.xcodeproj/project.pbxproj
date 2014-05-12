@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB2B2A11920D628002F7509 /* CCZTMultiCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2B2A01920D628002F7509 /* CCZTMultiCircleViewController.m */; };
+		7ECBAB74191D035B00BD6EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB73191D035B00BD6EAC /* Foundation.framework */; };
+		7ECBAB76191D035B00BD6EAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB75191D035B00BD6EAC /* CoreGraphics.framework */; };
+		7ECBAB78191D035B00BD6EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB77191D035B00BD6EAC /* UIKit.framework */; };
+		7ECBAB7E191D035B00BD6EAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBAB7C191D035B00BD6EAC /* InfoPlist.strings */; };
+		7ECBAB80191D035B00BD6EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBAB7F191D035B00BD6EAC /* main.m */; };
+		7ECBAB87191D035B00BD6EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBAB85191D035B00BD6EAC /* Main.storyboard */; };
+		7ECBAB8C191D035B00BD6EAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBAB8B191D035B00BD6EAC /* Images.xcassets */; };
+		7ECBAB93191D035B00BD6EAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB92191D035B00BD6EAC /* XCTest.framework */; };
+		7ECBAB94191D035B00BD6EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB73191D035B00BD6EAC /* Foundation.framework */; };
+		7ECBAB95191D035B00BD6EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECBAB77191D035B00BD6EAC /* UIKit.framework */; };
+		7ECBAB9D191D035B00BD6EAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECBAB9B191D035B00BD6EAC /* InfoPlist.strings */; };
+		7ECBAB9F191D035B00BD6EAC /* CustomCircleZoomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBAB9E191D035B00BD6EAC /* CustomCircleZoomTransitionTests.m */; };
+		7ECBABAB191D039D00BD6EAC /* CCZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABAA191D039D00BD6EAC /* CCZTViewController.m */; };
+		7ECBABAF191D03C400BD6EAC /* CCZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABAE191D03C400BD6EAC /* CCZTAppDelegate.m */; };
+		7ECBABB3191D03EB00BD6EAC /* CCZTCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABB2191D03EB00BD6EAC /* CCZTCircleView.m */; };
+		7ECBABB6191D204E00BD6EAC /* CCZTViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABB5191D204E00BD6EAC /* CCZTViewController2.m */; };
+		7ECBABBA191D53D400BD6EAC /* CCZTTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABB9191D53D400BD6EAC /* CCZTTransitionDelegate.m */; };
+		7ECBABBD191D541500BD6EAC /* CCZTAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECBABBC191D541500BD6EAC /* CCZTAnimatedTransitioning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ECBAB96191D035B00BD6EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ECBAB68191D035B00BD6EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ECBAB6F191D035B00BD6EAC;
+			remoteInfo = CustomCircleZoomTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EB2B29F1920D628002F7509 /* CCZTMultiCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTMultiCircleViewController.h; sourceTree = "<group>"; };
+		7EB2B2A01920D628002F7509 /* CCZTMultiCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTMultiCircleViewController.m; sourceTree = "<group>"; };
+		7ECBAB70191D035B00BD6EAC /* CustomCircleZoomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCircleZoomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECBAB73191D035B00BD6EAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7ECBAB75191D035B00BD6EAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7ECBAB77191D035B00BD6EAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ECBAB7B191D035B00BD6EAC /* CustomCircleZoomTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCircleZoomTransition-Info.plist"; sourceTree = "<group>"; };
+		7ECBAB7D191D035B00BD6EAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ECBAB7F191D035B00BD6EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ECBAB81191D035B00BD6EAC /* CustomCircleZoomTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCircleZoomTransition-Prefix.pch"; sourceTree = "<group>"; };
+		7ECBAB86191D035B00BD6EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ECBAB8B191D035B00BD6EAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ECBAB91191D035B00BD6EAC /* CustomCircleZoomTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCircleZoomTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECBAB92191D035B00BD6EAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7ECBAB9A191D035B00BD6EAC /* CustomCircleZoomTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCircleZoomTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		7ECBAB9C191D035B00BD6EAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ECBAB9E191D035B00BD6EAC /* CustomCircleZoomTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCircleZoomTransitionTests.m; sourceTree = "<group>"; };
+		7ECBABA9191D039D00BD6EAC /* CCZTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTViewController.h; sourceTree = "<group>"; };
+		7ECBABAA191D039D00BD6EAC /* CCZTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTViewController.m; sourceTree = "<group>"; };
+		7ECBABAD191D03C400BD6EAC /* CCZTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTAppDelegate.h; sourceTree = "<group>"; };
+		7ECBABAE191D03C400BD6EAC /* CCZTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTAppDelegate.m; sourceTree = "<group>"; };
+		7ECBABB1191D03EB00BD6EAC /* CCZTCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTCircleView.h; sourceTree = "<group>"; };
+		7ECBABB2191D03EB00BD6EAC /* CCZTCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTCircleView.m; sourceTree = "<group>"; };
+		7ECBABB4191D204E00BD6EAC /* CCZTViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTViewController2.h; sourceTree = "<group>"; };
+		7ECBABB5191D204E00BD6EAC /* CCZTViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTViewController2.m; sourceTree = "<group>"; };
+		7ECBABB8191D53D400BD6EAC /* CCZTTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTTransitionDelegate.h; sourceTree = "<group>"; };
+		7ECBABB9191D53D400BD6EAC /* CCZTTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTTransitionDelegate.m; sourceTree = "<group>"; };
+		7ECBABBB191D541500BD6EAC /* CCZTAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZTAnimatedTransitioning.h; sourceTree = "<group>"; };
+		7ECBABBC191D541500BD6EAC /* CCZTAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZTAnimatedTransitioning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ECBAB6D191D035B00BD6EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBAB76191D035B00BD6EAC /* CoreGraphics.framework in Frameworks */,
+				7ECBAB78191D035B00BD6EAC /* UIKit.framework in Frameworks */,
+				7ECBAB74191D035B00BD6EAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECBAB8E191D035B00BD6EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBAB93191D035B00BD6EAC /* XCTest.framework in Frameworks */,
+				7ECBAB95191D035B00BD6EAC /* UIKit.framework in Frameworks */,
+				7ECBAB94191D035B00BD6EAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ECBAB67191D035B00BD6EAC = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB79191D035B00BD6EAC /* CustomCircleZoomTransition */,
+				7ECBAB98191D035B00BD6EAC /* CustomCircleZoomTransitionTests */,
+				7ECBAB72191D035B00BD6EAC /* Frameworks */,
+				7ECBAB71191D035B00BD6EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECBAB71191D035B00BD6EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB70191D035B00BD6EAC /* CustomCircleZoomTransition.app */,
+				7ECBAB91191D035B00BD6EAC /* CustomCircleZoomTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ECBAB72191D035B00BD6EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB73191D035B00BD6EAC /* Foundation.framework */,
+				7ECBAB75191D035B00BD6EAC /* CoreGraphics.framework */,
+				7ECBAB77191D035B00BD6EAC /* UIKit.framework */,
+				7ECBAB92191D035B00BD6EAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ECBAB79191D035B00BD6EAC /* CustomCircleZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBABB7191D53A200BD6EAC /* Transition */,
+				7ECBABAC191D03A400BD6EAC /* AppDelegate */,
+				7ECBABB0191D03CF00BD6EAC /* Views */,
+				7ECBABA8191D036B00BD6EAC /* ViewControllers */,
+				7ECBAB85191D035B00BD6EAC /* Main.storyboard */,
+				7ECBAB8B191D035B00BD6EAC /* Images.xcassets */,
+				7ECBAB7A191D035B00BD6EAC /* Supporting Files */,
+			);
+			path = CustomCircleZoomTransition;
+			sourceTree = "<group>";
+		};
+		7ECBAB7A191D035B00BD6EAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB7B191D035B00BD6EAC /* CustomCircleZoomTransition-Info.plist */,
+				7ECBAB7C191D035B00BD6EAC /* InfoPlist.strings */,
+				7ECBAB7F191D035B00BD6EAC /* main.m */,
+				7ECBAB81191D035B00BD6EAC /* CustomCircleZoomTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ECBAB98191D035B00BD6EAC /* CustomCircleZoomTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB9E191D035B00BD6EAC /* CustomCircleZoomTransitionTests.m */,
+				7ECBAB99191D035B00BD6EAC /* Supporting Files */,
+			);
+			path = CustomCircleZoomTransitionTests;
+			sourceTree = "<group>";
+		};
+		7ECBAB99191D035B00BD6EAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBAB9A191D035B00BD6EAC /* CustomCircleZoomTransitionTests-Info.plist */,
+				7ECBAB9B191D035B00BD6EAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ECBABA8191D036B00BD6EAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBABA9191D039D00BD6EAC /* CCZTViewController.h */,
+				7ECBABAA191D039D00BD6EAC /* CCZTViewController.m */,
+				7ECBABB4191D204E00BD6EAC /* CCZTViewController2.h */,
+				7ECBABB5191D204E00BD6EAC /* CCZTViewController2.m */,
+				7EB2B29F1920D628002F7509 /* CCZTMultiCircleViewController.h */,
+				7EB2B2A01920D628002F7509 /* CCZTMultiCircleViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7ECBABAC191D03A400BD6EAC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBABAD191D03C400BD6EAC /* CCZTAppDelegate.h */,
+				7ECBABAE191D03C400BD6EAC /* CCZTAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7ECBABB0191D03CF00BD6EAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBABB1191D03EB00BD6EAC /* CCZTCircleView.h */,
+				7ECBABB2191D03EB00BD6EAC /* CCZTCircleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7ECBABB7191D53A200BD6EAC /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBABB8191D53D400BD6EAC /* CCZTTransitionDelegate.h */,
+				7ECBABB9191D53D400BD6EAC /* CCZTTransitionDelegate.m */,
+				7ECBABBB191D541500BD6EAC /* CCZTAnimatedTransitioning.h */,
+				7ECBABBC191D541500BD6EAC /* CCZTAnimatedTransitioning.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ECBAB6F191D035B00BD6EAC /* CustomCircleZoomTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ECBABA2191D035B00BD6EAC /* Build configuration list for PBXNativeTarget "CustomCircleZoomTransition" */;
+			buildPhases = (
+				7ECBAB6C191D035B00BD6EAC /* Sources */,
+				7ECBAB6D191D035B00BD6EAC /* Frameworks */,
+				7ECBAB6E191D035B00BD6EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCircleZoomTransition;
+			productName = CustomCircleZoomTransition;
+			productReference = 7ECBAB70191D035B00BD6EAC /* CustomCircleZoomTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ECBAB90191D035B00BD6EAC /* CustomCircleZoomTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ECBABA5191D035B00BD6EAC /* Build configuration list for PBXNativeTarget "CustomCircleZoomTransitionTests" */;
+			buildPhases = (
+				7ECBAB8D191D035B00BD6EAC /* Sources */,
+				7ECBAB8E191D035B00BD6EAC /* Frameworks */,
+				7ECBAB8F191D035B00BD6EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ECBAB97191D035B00BD6EAC /* PBXTargetDependency */,
+			);
+			name = CustomCircleZoomTransitionTests;
+			productName = CustomCircleZoomTransitionTests;
+			productReference = 7ECBAB91191D035B00BD6EAC /* CustomCircleZoomTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ECBAB68191D035B00BD6EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCZT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Morris Projects Ltd";
+				TargetAttributes = {
+					7ECBAB90191D035B00BD6EAC = {
+						TestTargetID = 7ECBAB6F191D035B00BD6EAC;
+					};
+				};
+			};
+			buildConfigurationList = 7ECBAB6B191D035B00BD6EAC /* Build configuration list for PBXProject "CustomCircleZoomTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ECBAB67191D035B00BD6EAC;
+			productRefGroup = 7ECBAB71191D035B00BD6EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ECBAB6F191D035B00BD6EAC /* CustomCircleZoomTransition */,
+				7ECBAB90191D035B00BD6EAC /* CustomCircleZoomTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ECBAB6E191D035B00BD6EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBAB8C191D035B00BD6EAC /* Images.xcassets in Resources */,
+				7ECBAB7E191D035B00BD6EAC /* InfoPlist.strings in Resources */,
+				7ECBAB87191D035B00BD6EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECBAB8F191D035B00BD6EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBAB9D191D035B00BD6EAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ECBAB6C191D035B00BD6EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBABB3191D03EB00BD6EAC /* CCZTCircleView.m in Sources */,
+				7ECBABBD191D541500BD6EAC /* CCZTAnimatedTransitioning.m in Sources */,
+				7EB2B2A11920D628002F7509 /* CCZTMultiCircleViewController.m in Sources */,
+				7ECBABAB191D039D00BD6EAC /* CCZTViewController.m in Sources */,
+				7ECBABAF191D03C400BD6EAC /* CCZTAppDelegate.m in Sources */,
+				7ECBABBA191D53D400BD6EAC /* CCZTTransitionDelegate.m in Sources */,
+				7ECBABB6191D204E00BD6EAC /* CCZTViewController2.m in Sources */,
+				7ECBAB80191D035B00BD6EAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECBAB8D191D035B00BD6EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECBAB9F191D035B00BD6EAC /* CustomCircleZoomTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ECBAB97191D035B00BD6EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ECBAB6F191D035B00BD6EAC /* CustomCircleZoomTransition */;
+			targetProxy = 7ECBAB96191D035B00BD6EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ECBAB7C191D035B00BD6EAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECBAB7D191D035B00BD6EAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ECBAB85191D035B00BD6EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECBAB86191D035B00BD6EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ECBAB9B191D035B00BD6EAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECBAB9C191D035B00BD6EAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ECBABA0191D035B00BD6EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ECBABA1191D035B00BD6EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ECBABA3191D035B00BD6EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCircleZoomTransition/CustomCircleZoomTransition-Prefix.pch";
+				INFOPLIST_FILE = "CustomCircleZoomTransition/CustomCircleZoomTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7ECBABA4191D035B00BD6EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCircleZoomTransition/CustomCircleZoomTransition-Prefix.pch";
+				INFOPLIST_FILE = "CustomCircleZoomTransition/CustomCircleZoomTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7ECBABA6191D035B00BD6EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCircleZoomTransition.app/CustomCircleZoomTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCircleZoomTransition/CustomCircleZoomTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomCircleZoomTransitionTests/CustomCircleZoomTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7ECBABA7191D035B00BD6EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCircleZoomTransition.app/CustomCircleZoomTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCircleZoomTransition/CustomCircleZoomTransition-Prefix.pch";
+				INFOPLIST_FILE = "CustomCircleZoomTransitionTests/CustomCircleZoomTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ECBAB6B191D035B00BD6EAC /* Build configuration list for PBXProject "CustomCircleZoomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECBABA0191D035B00BD6EAC /* Debug */,
+				7ECBABA1191D035B00BD6EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ECBABA2191D035B00BD6EAC /* Build configuration list for PBXNativeTarget "CustomCircleZoomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECBABA3191D035B00BD6EAC /* Debug */,
+				7ECBABA4191D035B00BD6EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ECBABA5191D035B00BD6EAC /* Build configuration list for PBXNativeTarget "CustomCircleZoomTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECBABA6191D035B00BD6EAC /* Debug */,
+				7ECBABA7191D035B00BD6EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ECBAB68191D035B00BD6EAC /* Project object */;
+}
